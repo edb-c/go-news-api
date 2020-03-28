@@ -4,10 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>E.Cofresi Go</title>
+    <title>E.Cofresi Go - News App</title>
     <link rel="stylesheet" href="/assets/style.css" />
   </head>
   <body>
+      <main>
+        <header>
+            <a class="logo" href="/">News Demo</a>
+            <form action="/search" method="GET">
+              <input autofocus class="search-input" value="{{ .SearchKey }}" placeholder="Enter a news topic" type="search" name="q">
+            </form>
+          </header>
+
+      </main>
     Golang
   </body>
 </html>
